@@ -85,4 +85,3 @@ gem "rest-client"
 gem "ruby-debug-ide", require: false
 gem "debase", require: false
 gem "devise", "~> 4.8"
-gem "sqlite3", "~> 1.4"
