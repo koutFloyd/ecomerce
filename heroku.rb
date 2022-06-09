@@ -8,13 +8,13 @@ system("git commit -m \"subida #{t.strftime("%d/%m/%Y %H:%M:%S")}\"")
 puts "3.- running command git push origin master"
 system("git push origin master")
 
-puts "running comandos DataBase..."
-system("db:migrate")
+#puts "running comandos DataBase..."
+#system("db:migrate")
 
 puts "running comandos heroku..."
 puts "4.- running command heroku login"
 system("heroku login")
-system("horoku create")
+#system("horoku create")
 puts "5.- running command git push heroku master"
 system("git push heroku master")
 puts "6.- running command heroku run rake db:migrate"
