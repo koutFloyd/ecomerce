@@ -1,6 +1,6 @@
 t = Time.now
 
-puts "running comandos gitHub..."
+puts "running comandos gitHub......"
 puts "1.- running command git add ."
 system("git add .")
 puts "2.- running command git commit -m 'commit message'"
