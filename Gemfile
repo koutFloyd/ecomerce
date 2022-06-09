@@ -76,8 +76,6 @@ group :production do
 end
 # GReenDucK_cl: requisitos para activar bootstrap
 
-    gem "bootstrap"
-
-    gem "sassc-rails"
-
-    gem "rest-client"
+gem "bootstrap"
+gem "sassc-rails"
+gem "rest-client"
