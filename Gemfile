@@ -72,10 +72,6 @@ group :test do
   gem "webdrivers"
 end
 group :production do
-  # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
-  gem "capybara"
-  gem "selenium-webdriver"
-  gem "webdrivers"
   gem "gm"
 end
 # GReenDucK_cl: requisitos para activar bootstrap
