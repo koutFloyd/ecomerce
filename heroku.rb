@@ -14,7 +14,9 @@ system("db:migrate")
 puts "running comandos heroku..."
 puts "4.- running command heroku login"
 system("heroku login")
-system("heroku create")
+
+#system("heroku create")
+
 puts "5.- running command git push heroku master"
 system("git push heroku master")
 puts "6.- running command heroku run rake db:migrate"

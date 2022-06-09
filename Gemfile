@@ -71,6 +71,7 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
 group :production do
   gem "pg"
 end
@@ -79,3 +80,6 @@ end
 gem "bootstrap"
 gem "sassc-rails"
 gem "rest-client"
+
+gem "ruby-debug-ide", require: false
+gem "debase", require: false
