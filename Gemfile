@@ -72,7 +72,7 @@ group :test do
   gem "webdrivers"
 end
 group :production do
-  gem "gm"
+  gem "pg"
 end
 # GReenDucK_cl: requisitos para activar bootstrap
 
