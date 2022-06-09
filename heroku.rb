@@ -9,7 +9,7 @@ puts "3.- running command git push origin master"
 system("git push origin master")
 
 #puts "running comandos DataBase..."
-system("db:migrate")
+#system("db:migrate")
  
 puts "running comandos heroku..."
 puts "4.- running command heroku login"
